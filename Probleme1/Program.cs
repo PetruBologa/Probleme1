@@ -10,26 +10,26 @@ namespace Probleme1
     {
         static void Main(string[] args)
         {
-            // var reguli = new Reguli();
-            // reguli.DrawLadder(3);
-            // Console.WriteLine("   ");
-            // Console.WriteLine("***********");
-            // Console.WriteLine("   ");
-            // reguli.Lumanari(8, 1, 2, 2, 3, 4, 5, 5, 5);
-            // Console.WriteLine("   ");
-            // Console.WriteLine("***********");
-            // Console.WriteLine("   ");
-            // reguli.LogIn();
-            // Console.WriteLine("   ");
-            // Console.WriteLine("***********");
-            // Console.WriteLine("   ");
-            // //var animal = new Animal("Reptila", "Salbatic", "crocodil", 25, 76, false);
-            //// animal.Display();           
-            // var caine = new Caine("Mamifer", "domestic", "Caine",13, 45,true);
-            // var caine1 = new Caine("Azor", true, true, 12, "de curte");
-            // caine.Display();
-            //// Console.WriteLine(caine.ToString());
-            // Console.ReadKey();
+            var reguli = new Reguli();
+            reguli.DrawLadder(3);
+            Console.WriteLine("   ");
+            Console.WriteLine("***********");
+            Console.WriteLine("   ");
+            reguli.Lumanari(8, 1, 2, 2, 3, 4, 5, 5, 5);
+            Console.WriteLine("   ");
+            Console.WriteLine("***********");
+            Console.WriteLine("   ");
+            reguli.LogIn();
+            Console.WriteLine("   ");
+            Console.WriteLine("***********");
+            Console.WriteLine("   ");
+            //var animal = new Animal("Reptila", "Salbatic", "crocodil", 25, 76, false);
+            // animal.Display();           
+            var caine = new Caine("Mamifer", "domestic", "Caine", 13, 45, true);
+            var caine1 = new Caine("Azor", true, true, 12, "de curte");
+            caine.Display();
+            // Console.WriteLine(caine.ToString());
+            Console.ReadKey();
 
             var valideaza = new Validator();
             Console.WriteLine("Introduceti username: ");
